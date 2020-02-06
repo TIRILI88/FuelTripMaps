@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 430A0E22E8953DF630541D83E5C372DD /* Build configuration list for PBXAggregateTarget "TomTomOnlineUtils" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TomTomOnlineUtils;
+		};
+		8CAF0E001A6C3A8B4BCB458219F7989B /* TomTomOnlineSDKMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F502BB3F8D8134524C6F84B173C4B6E /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B2E454CA73F3E6049477038CE0117BC9 /* PBXTargetDependency */,
+				EB1EA3837E24FCBB39CC299FC2E0D0FF /* PBXTargetDependency */,
+			);
+			name = TomTomOnlineSDKMaps;
+		};
+		A347A6039DB81C816326F6627509ECD2 /* TomTomOnlineSDKRouting */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AFB04387E36F74CD707D87D255353A2E /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKRouting" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2815CDBFFF808C728982A78CE5759478 /* PBXTargetDependency */,
+			);
+			name = TomTomOnlineSDKRouting;
+		};
+		AE8CF5FAF4A38CAD8E05AA50F0BD1DE3 /* TomTomOnlineSDKSearch */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4295EA7FEF461582C170AD0198F058B5 /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKSearch" */;
+			buildPhases = (
+			);
+			dependencies = (
+				82865EE628E41A28219CE6D12D30F209 /* PBXTargetDependency */,
+			);
+			name = TomTomOnlineSDKSearch;
+		};
+		EC1E6F11C1E86D19F3462E91AC3929E6 /* TomTomOnlineSDKMapsStyle */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 990B44732ABC8F62E5FD6CF3F46F1FD0 /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKMapsStyle" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6D7C77E5EED74B94BE7A9179797C27FD /* PBXTargetDependency */,
+			);
+			name = TomTomOnlineSDKMapsStyle;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03CAE8A343F874B8361048415C6F71C2 /* Pods-FuelTrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769E88965B1FBD45FF38A1BDA46EB7A /* Pods-FuelTrip-dummy.m */; };
+		3F6D5325B21805913E06ACEAED141D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FC4FF0AC718433FE852BBCAFE4A08D30 /* Pods-FuelTrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AF09CCF776C1E8EBB9B36EDD30FBB9 /* Pods-FuelTrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D2FA13C80DD5501F357F7B98E94DCB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200FC74E76FA023534E057A31AEF1C9;
+			remoteInfo = TomTomOnlineUtils;
+		};
+		25C7E60807B23D4FE0583B8C5D4974AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1E6F11C1E86D19F3462E91AC3929E6;
+			remoteInfo = TomTomOnlineSDKMapsStyle;
+		};
+		2E5DC242DF5FA2120E75C2568FCDC581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200FC74E76FA023534E057A31AEF1C9;
+			remoteInfo = TomTomOnlineUtils;
+		};
+		307BF9BB41A5F388614A2BF21A9EDF02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200FC74E76FA023534E057A31AEF1C9;
+			remoteInfo = TomTomOnlineUtils;
+		};
+		69BDCE958DA0868FB26CE4DD3650784E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200FC74E76FA023534E057A31AEF1C9;
+			remoteInfo = TomTomOnlineUtils;
+		};
+		B65D6B8727FFC59EE5FCFF6FDA95775F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8CF5FAF4A38CAD8E05AA50F0BD1DE3;
+			remoteInfo = TomTomOnlineSDKSearch;
+		};
+		B78A5E02AFC77718223C2A0DCFE8AE8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A347A6039DB81C816326F6627509ECD2;
+			remoteInfo = TomTomOnlineSDKRouting;
+		};
+		C77933ACD1021453A212442524855B35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1E6F11C1E86D19F3462E91AC3929E6;
+			remoteInfo = TomTomOnlineSDKMapsStyle;
+		};
+		EB91F82C8694AC02CB21EE48DE40C0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CAF0E001A6C3A8B4BCB458219F7989B;
+			remoteInfo = TomTomOnlineSDKMaps;
+		};
+		F8530F572F5C4CBF6DBC9F2166870371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200FC74E76FA023534E057A31AEF1C9;
+			remoteInfo = TomTomOnlineUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10869DD071B8F3311AA4D16046B76F0D /* Pods-FuelTrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelTrip-Info.plist"; sourceTree = "<group>"; };
+		1A3EBDC59828E08E4653116A907F6D0C /* Pods-FuelTrip-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuelTrip-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BFDBF33CF35C7F96F79D9EF62EA3462 /* TomTomOnlineSDKRouting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TomTomOnlineSDKRouting.xcconfig; sourceTree = "<group>"; };
+		2C1845AD9E79A5B60FF04372F6830D37 /* TomTomOnlineSDKMapsStyle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TomTomOnlineSDKMapsStyle.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3769E88965B1FBD45FF38A1BDA46EB7A /* Pods-FuelTrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuelTrip-dummy.m"; sourceTree = "<group>"; };
+		638F604E81DDF8856096352D3E769B3B /* Pods-FuelTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelTrip.release.xcconfig"; sourceTree = "<group>"; };
+		67E76F461EFB3180BEB98A4E3C14B171 /* TomTomOnlineSDKSearch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TomTomOnlineSDKSearch.xcconfig; sourceTree = "<group>"; };
+		6C978B235F2EA9A3595E998ADC49361D /* TomTomOnlineSDKSearch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TomTomOnlineSDKSearch.framework; path = TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework; sourceTree = "<group>"; };
+		704BF4FA573A3A0741260652E018681A /* Pods-FuelTrip-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuelTrip-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79DB282560AFF017997753A48E1E10F7 /* TomTomOnlineSDKMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TomTomOnlineSDKMaps.xcconfig; sourceTree = "<group>"; };
+		7F3567168B40AB24354C04AD35DBAD58 /* TomTomOnlineUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TomTomOnlineUtils.xcconfig; sourceTree = "<group>"; };
+		85CE4622E07ED846DE0BBDF9AB0B5210 /* Pods-FuelTrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuelTrip.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09B3096B9921B88AD75769CACC6D62C /* Pods_FuelTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FuelTrip.framework; path = "Pods-FuelTrip.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AF09CCF776C1E8EBB9B36EDD30FBB9 /* Pods-FuelTrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuelTrip-umbrella.h"; sourceTree = "<group>"; };
+		A60FF6258516C2434D89E215EB1AAB06 /* TomTomOnlineSDKRouting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TomTomOnlineSDKRouting.framework; path = TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework; sourceTree = "<group>"; };
+		ADC0BDFB75FCA116AEA1EFC6E58B293E /* Pods-FuelTrip-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuelTrip-frameworks.sh"; sourceTree = "<group>"; };
+		AF89B8CF1FD570B0B18307F4D0CF84A0 /* TomTomOnlineUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TomTomOnlineUtils.framework; path = TomTomOnlineUtils/TomTomOnlineUtils.framework; sourceTree = "<group>"; };
+		CABC3F65B679FE8D3923FCFA36BE1158 /* TomTomOnlineSDKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TomTomOnlineSDKMaps.framework; path = TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework; sourceTree = "<group>"; };
+		FCEEF731BE6E7C22D8087349D737BCAF /* TomTomOnlineSDKMapsStyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TomTomOnlineSDKMapsStyle.framework; path = TomTomOnlineSDKMapsStyle/TomTomOnlineSDKMapsStyle.framework; sourceTree = "<group>"; };
+		FEE91907A18BCDE15824FD2B128F608C /* Pods-FuelTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuelTrip.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC51A359F6771391DF05B4548037961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6D5325B21805913E06ACEAED141D1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114B04679C1F5DA3EA62EC85DBCDA544 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F3567168B40AB24354C04AD35DBAD58 /* TomTomOnlineUtils.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TomTomOnlineUtils";
+			sourceTree = "<group>";
+		};
+		2750DE67F83027DD67E920A6DB1DB24A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				978B5DEBFC63201DE40EE99A5D42FD4E /* TomTomOnlineSDKMaps */,
+				4E859F4C31E0AA0C150668FD729470CA /* TomTomOnlineSDKMapsStyle */,
+				3D35B50A809741CB3EA1A5ADE137972A /* TomTomOnlineSDKRouting */,
+				6E3E4D46F27F5F1D9B6C17F5B90353C8 /* TomTomOnlineSDKSearch */,
+				EFB7BD54B56E7EADC2EB2F6BEFDA1896 /* TomTomOnlineUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32A589679DC55B17E6211817EDDEE954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A60FF6258516C2434D89E215EB1AAB06 /* TomTomOnlineSDKRouting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39DF3DFC574DEF98A1A0C5D75921412E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BFDBF33CF35C7F96F79D9EF62EA3462 /* TomTomOnlineSDKRouting.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TomTomOnlineSDKRouting";
+			sourceTree = "<group>";
+		};
+		3D35B50A809741CB3EA1A5ADE137972A /* TomTomOnlineSDKRouting */ = {
+			isa = PBXGroup;
+			children = (
+				32A589679DC55B17E6211817EDDEE954 /* Frameworks */,
+				39DF3DFC574DEF98A1A0C5D75921412E /* Support Files */,
+			);
+			name = TomTomOnlineSDKRouting;
+			path = TomTomOnlineSDKRouting;
+			sourceTree = "<group>";
+		};
+		4E859F4C31E0AA0C150668FD729470CA /* TomTomOnlineSDKMapsStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5EDFBA73D42D746736FA6365923A732F /* Frameworks */,
+				EF7F2B0CAF6024E821A65A78D2C8CD6A /* Support Files */,
+			);
+			name = TomTomOnlineSDKMapsStyle;
+			path = TomTomOnlineSDKMapsStyle;
+			sourceTree = "<group>";
+		};
+		5EDFBA73D42D746736FA6365923A732F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEF731BE6E7C22D8087349D737BCAF /* TomTomOnlineSDKMapsStyle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A25224593428D739D89A1979AEF052E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CABC3F65B679FE8D3923FCFA36BE1158 /* TomTomOnlineSDKMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E3E4D46F27F5F1D9B6C17F5B90353C8 /* TomTomOnlineSDKSearch */ = {
+			isa = PBXGroup;
+			children = (
+				AB0E5C2691BADDE524DAF64B2472D1A3 /* Frameworks */,
+				B6C31F2F06296C71D904F2E132F638F3 /* Support Files */,
+			);
+			name = TomTomOnlineSDKSearch;
+			path = TomTomOnlineSDKSearch;
+			sourceTree = "<group>";
+		};
+		978B5DEBFC63201DE40EE99A5D42FD4E /* TomTomOnlineSDKMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6A25224593428D739D89A1979AEF052E /* Frameworks */,
+				C1C74F131894459FFF3CDA36E68A9952 /* Support Files */,
+			);
+			name = TomTomOnlineSDKMaps;
+			path = TomTomOnlineSDKMaps;
+			sourceTree = "<group>";
+		};
+		AB0E5C2691BADDE524DAF64B2472D1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C978B235F2EA9A3595E998ADC49361D /* TomTomOnlineSDKSearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6C31F2F06296C71D904F2E132F638F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E76F461EFB3180BEB98A4E3C14B171 /* TomTomOnlineSDKSearch.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TomTomOnlineSDKSearch";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1C74F131894459FFF3CDA36E68A9952 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79DB282560AFF017997753A48E1E10F7 /* TomTomOnlineSDKMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TomTomOnlineSDKMaps";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2750DE67F83027DD67E920A6DB1DB24A /* Pods */,
+				D3D1AB16339CAC87ED9975F566DC2B5E /* Products */,
+				FEB77A490D6EEF09B8DC3B261E6007F1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D1AB16339CAC87ED9975F566DC2B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09B3096B9921B88AD75769CACC6D62C /* Pods_FuelTrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A077658557CC05A0DE28B866B19634 /* Pods-FuelTrip */ = {
+			isa = PBXGroup;
+			children = (
+				85CE4622E07ED846DE0BBDF9AB0B5210 /* Pods-FuelTrip.modulemap */,
+				704BF4FA573A3A0741260652E018681A /* Pods-FuelTrip-acknowledgements.markdown */,
+				1A3EBDC59828E08E4653116A907F6D0C /* Pods-FuelTrip-acknowledgements.plist */,
+				3769E88965B1FBD45FF38A1BDA46EB7A /* Pods-FuelTrip-dummy.m */,
+				ADC0BDFB75FCA116AEA1EFC6E58B293E /* Pods-FuelTrip-frameworks.sh */,
+				10869DD071B8F3311AA4D16046B76F0D /* Pods-FuelTrip-Info.plist */,
+				A2AF09CCF776C1E8EBB9B36EDD30FBB9 /* Pods-FuelTrip-umbrella.h */,
+				FEE91907A18BCDE15824FD2B128F608C /* Pods-FuelTrip.debug.xcconfig */,
+				638F604E81DDF8856096352D3E769B3B /* Pods-FuelTrip.release.xcconfig */,
+			);
+			name = "Pods-FuelTrip";
+			path = "Target Support Files/Pods-FuelTrip";
+			sourceTree = "<group>";
+		};
+		DA77C9CD61BBBDA0B70A780454D608F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF89B8CF1FD570B0B18307F4D0CF84A0 /* TomTomOnlineUtils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7F2B0CAF6024E821A65A78D2C8CD6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C1845AD9E79A5B60FF04372F6830D37 /* TomTomOnlineSDKMapsStyle.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TomTomOnlineSDKMapsStyle";
+			sourceTree = "<group>";
+		};
+		EFB7BD54B56E7EADC2EB2F6BEFDA1896 /* TomTomOnlineUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DA77C9CD61BBBDA0B70A780454D608F5 /* Frameworks */,
+				114B04679C1F5DA3EA62EC85DBCDA544 /* Support Files */,
+			);
+			name = TomTomOnlineUtils;
+			path = TomTomOnlineUtils;
+			sourceTree = "<group>";
+		};
+		FEB77A490D6EEF09B8DC3B261E6007F1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A077658557CC05A0DE28B866B19634 /* Pods-FuelTrip */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8EF85EBF05ECF67C98443873EB73911A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4FF0AC718433FE852BBCAFE4A08D30 /* Pods-FuelTrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F31601C64831D37EC1C25CE18D5E7837 /* Pods-FuelTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1778E18257F9598266A872710E51C689 /* Build configuration list for PBXNativeTarget "Pods-FuelTrip" */;
+			buildPhases = (
+				8EF85EBF05ECF67C98443873EB73911A /* Headers */,
+				56C1C1C2D696416847E632C016969A15 /* Sources */,
+				8FC51A359F6771391DF05B4548037961 /* Frameworks */,
+				292AE165A2B6E26CC36102D59F8EF4AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB45234A12AD340629495D53D13D1A7 /* PBXTargetDependency */,
+				0B01A2D0C4E49C5F33C1BC8689929F95 /* PBXTargetDependency */,
+				F5B143B7227C38EBD8CC6E1D1E2114AB /* PBXTargetDependency */,
+				A2CE66D479608519458D2415E61D348F /* PBXTargetDependency */,
+				D3C72C296D1C3DBF3B14F4343E58C2D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FuelTrip";
+			productName = "Pods-FuelTrip";
+			productReference = A09B3096B9921B88AD75769CACC6D62C /* Pods_FuelTrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D3D1AB16339CAC87ED9975F566DC2B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31601C64831D37EC1C25CE18D5E7837 /* Pods-FuelTrip */,
+				8CAF0E001A6C3A8B4BCB458219F7989B /* TomTomOnlineSDKMaps */,
+				EC1E6F11C1E86D19F3462E91AC3929E6 /* TomTomOnlineSDKMapsStyle */,
+				A347A6039DB81C816326F6627509ECD2 /* TomTomOnlineSDKRouting */,
+				AE8CF5FAF4A38CAD8E05AA50F0BD1DE3 /* TomTomOnlineSDKSearch */,
+				8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292AE165A2B6E26CC36102D59F8EF4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56C1C1C2D696416847E632C016969A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CAE8A343F874B8361048415C6F71C2 /* Pods-FuelTrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B01A2D0C4E49C5F33C1BC8689929F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineSDKMapsStyle;
+			target = EC1E6F11C1E86D19F3462E91AC3929E6 /* TomTomOnlineSDKMapsStyle */;
+			targetProxy = 25C7E60807B23D4FE0583B8C5D4974AA /* PBXContainerItemProxy */;
+		};
+		2815CDBFFF808C728982A78CE5759478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineUtils;
+			target = 8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */;
+			targetProxy = 0D2FA13C80DD5501F357F7B98E94DCB4 /* PBXContainerItemProxy */;
+		};
+		6D7C77E5EED74B94BE7A9179797C27FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineUtils;
+			target = 8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */;
+			targetProxy = 69BDCE958DA0868FB26CE4DD3650784E /* PBXContainerItemProxy */;
+		};
+		82865EE628E41A28219CE6D12D30F209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineUtils;
+			target = 8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */;
+			targetProxy = F8530F572F5C4CBF6DBC9F2166870371 /* PBXContainerItemProxy */;
+		};
+		A2CE66D479608519458D2415E61D348F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineSDKSearch;
+			target = AE8CF5FAF4A38CAD8E05AA50F0BD1DE3 /* TomTomOnlineSDKSearch */;
+			targetProxy = B65D6B8727FFC59EE5FCFF6FDA95775F /* PBXContainerItemProxy */;
+		};
+		AFB45234A12AD340629495D53D13D1A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineSDKMaps;
+			target = 8CAF0E001A6C3A8B4BCB458219F7989B /* TomTomOnlineSDKMaps */;
+			targetProxy = EB91F82C8694AC02CB21EE48DE40C0B5 /* PBXContainerItemProxy */;
+		};
+		B2E454CA73F3E6049477038CE0117BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineSDKMapsStyle;
+			target = EC1E6F11C1E86D19F3462E91AC3929E6 /* TomTomOnlineSDKMapsStyle */;
+			targetProxy = C77933ACD1021453A212442524855B35 /* PBXContainerItemProxy */;
+		};
+		D3C72C296D1C3DBF3B14F4343E58C2D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineUtils;
+			target = 8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */;
+			targetProxy = 307BF9BB41A5F388614A2BF21A9EDF02 /* PBXContainerItemProxy */;
+		};
+		EB1EA3837E24FCBB39CC299FC2E0D0FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineUtils;
+			target = 8200FC74E76FA023534E057A31AEF1C9 /* TomTomOnlineUtils */;
+			targetProxy = 2E5DC242DF5FA2120E75C2568FCDC581 /* PBXContainerItemProxy */;
+		};
+		F5B143B7227C38EBD8CC6E1D1E2114AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TomTomOnlineSDKRouting;
+			target = A347A6039DB81C816326F6627509ECD2 /* TomTomOnlineSDKRouting */;
+			targetProxy = B78A5E02AFC77718223C2A0DCFE8AE8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FEA63202AA69281513A4311599DB9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DB282560AFF017997753A48E1E10F7 /* TomTomOnlineSDKMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126E596A5D6B00E697605A2C0A113C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 638F604E81DDF8856096352D3E769B3B /* Pods-FuelTrip.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelTrip/Pods-FuelTrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelTrip/Pods-FuelTrip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1E5AB48E5616C1F379435F41729B3CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E76F461EFB3180BEB98A4E3C14B171 /* TomTomOnlineSDKSearch.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289789451C3A26FF60056A3DA13E48F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79DB282560AFF017997753A48E1E10F7 /* TomTomOnlineSDKMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		431E34EACD3EBBA2A388B04F17B36F61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1845AD9E79A5B60FF04372F6830D37 /* TomTomOnlineSDKMapsStyle.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5046BDC24649E799D3AF00E08367CA77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1845AD9E79A5B60FF04372F6830D37 /* TomTomOnlineSDKMapsStyle.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82B3AEFC7B780847D7D91606CD046EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFDBF33CF35C7F96F79D9EF62EA3462 /* TomTomOnlineSDKRouting.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94702BAE9E9501E6FE9161154A689BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3567168B40AB24354C04AD35DBAD58 /* TomTomOnlineUtils.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC3C4F250907520C445759316AF75F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE91907A18BCDE15824FD2B128F608C /* Pods-FuelTrip.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuelTrip/Pods-FuelTrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuelTrip/Pods-FuelTrip.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C58A0F074ABB198ACBAC012DA379CC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3567168B40AB24354C04AD35DBAD58 /* TomTomOnlineUtils.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4F657DB414B5777E291CE43E205CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFDBF33CF35C7F96F79D9EF62EA3462 /* TomTomOnlineSDKRouting.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDD0AB1A5BC8A358BF9C136FD22F8EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E76F461EFB3180BEB98A4E3C14B171 /* TomTomOnlineSDKSearch.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1778E18257F9598266A872710E51C689 /* Build configuration list for PBXNativeTarget "Pods-FuelTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC3C4F250907520C445759316AF75F9 /* Debug */,
+				126E596A5D6B00E697605A2C0A113C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4295EA7FEF461582C170AD0198F058B5 /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD0AB1A5BC8A358BF9C136FD22F8EDF /* Debug */,
+				1E5AB48E5616C1F379435F41729B3CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430A0E22E8953DF630541D83E5C372DD /* Build configuration list for PBXAggregateTarget "TomTomOnlineUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94702BAE9E9501E6FE9161154A689BE3 /* Debug */,
+				C58A0F074ABB198ACBAC012DA379CC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990B44732ABC8F62E5FD6CF3F46F1FD0 /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKMapsStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431E34EACD3EBBA2A388B04F17B36F61 /* Debug */,
+				5046BDC24649E799D3AF00E08367CA77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F502BB3F8D8134524C6F84B173C4B6E /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289789451C3A26FF60056A3DA13E48F9 /* Debug */,
+				0FEA63202AA69281513A4311599DB9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB04387E36F74CD707D87D255353A2E /* Build configuration list for PBXAggregateTarget "TomTomOnlineSDKRouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4F657DB414B5777E291CE43E205CD3 /* Debug */,
+				82B3AEFC7B780847D7D91606CD046EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

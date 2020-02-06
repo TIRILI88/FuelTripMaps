@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-FuelTrip/Pods-FuelTrip-frameworks.sh
+${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework
+${PODS_ROOT}/TomTomOnlineSDKMapsStyle/TomTomOnlineSDKMapsStyle/TomTomOnlineSDKMapsStyle.framework
+${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework
+${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework
+${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils/TomTomOnlineUtils.framework
